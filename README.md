@@ -11,6 +11,8 @@ yarn dev
 # or
 pnpm dev
 ```
+## Must be node 16 or higher
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
