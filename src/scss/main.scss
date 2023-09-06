@@ -1,0 +1,31 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+// nned to correction this style. leaving it fot now
+$helptext: #999;
+
+/* img {
+    -webkit-backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+ */
+ 
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin: 0 auto 25px;
+  font-family: "IBM Plex Sans", sans-serif;
+  width: 100%;
+  max-width: 323px;
+}
+
+//   End
