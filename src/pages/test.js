@@ -7,7 +7,9 @@ import { useRouter } from 'next/router'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Test() {
-  const router = useRouter()
+
+  const router = useRouter();
+  
   const handleClick = (e) => {
     e.preventDefault()
     router.push("/")
