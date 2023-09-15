@@ -26,10 +26,10 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-          <p onClick={(e)=> handleClick(e)} className='text'>
+          <p onClick={(e)=> handleClick(e)} className='menu-item'>
             Navigate to test
           </p>
-          <p onClick={(e)=> handleListClick(e, "1")} className='button-color'>
+          <p onClick={(e)=> handleListClick(e, "1")} className='menu-item'>
             Navigate to List 1
           </p>
           <div>
